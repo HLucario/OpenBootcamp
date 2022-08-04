@@ -1,0 +1,30 @@
+class Persona
+{
+	private int edad;
+	private String nombre;
+	private String telefono;
+	public void setEdad(int e)
+	{
+		this.edad = e;
+	}
+	public void setTelefono(int t)
+	{
+		this.telefono = t;
+	}
+	public void setNombre(int n)
+	{
+		this.nombre = n;
+	}
+	public int getEdad()
+	{
+		return edad;
+	}
+	public String getTelefono()
+	{
+		return telefono;
+	}
+	public String getNombre()
+	{
+		return nombre;
+	}
+}
