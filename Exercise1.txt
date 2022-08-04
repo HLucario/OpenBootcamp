@@ -1,0 +1,26 @@
+public int Sum(int a, int b)
+{
+	return a + b;
+	
+}
+
+public static void main(String [] args)
+{
+	int a = 5;
+	int b = 6;
+	Suma(a,b);
+	Coche miCoche = new Coche();
+	miCoche.incrementoPuertas();
+	System.out.print(miCoche.numeroPuertas);
+}
+
+
+class Coche
+{
+	public int numeroPuertas = 0;
+	
+	public void incrementoPuertas()
+	{
+		numeroPuertas++;
+	}
+}
