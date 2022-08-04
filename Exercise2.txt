@@ -1,0 +1,49 @@
+if(numeroIf > 0)
+{
+	
+}
+else if(numeroIf < 0)
+{
+	
+}
+else
+{
+	
+}
+
+while(numeroWhile <= 3)
+{
+	numeroWhile++;
+	System.out.println(numeroWhile);
+}
+
+do
+{
+	numeroWhile++;
+	System.out.println(numeroWhile);
+}(numeroWhile < 1)
+
+for(int numeroFor=0;numeroFor<=3;numeroFor++)
+{
+	System.out.println(numeroFor);
+}
+
+switch(estacion)
+{
+	case "primavera":
+		System.out.println("Estamos en primavera");
+	break;
+	case "verano":
+		System.out.println("Estamos en verano");
+	break;
+	case "otoño":
+		System.out.println("Estamos en otoño");
+	break;
+	case "invierno":
+		System.out.println("Estamos en invierno");
+	break;
+	default:
+		System.out.println("No es una estación");
+	break;
+}
+
