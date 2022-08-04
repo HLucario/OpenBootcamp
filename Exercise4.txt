@@ -1,0 +1,78 @@
+class Persona
+{
+	private int edad;
+	private String nombre;
+	private String telefono;
+	public void setEdad(int e)
+	{
+		this.edad = e;
+	}
+	public void setTelefono(int t)
+	{
+		this.telefono = t;
+	}
+	public void setNombre(int n)
+	{
+		this.nombre = n;
+	}
+	public int getEdad()
+	{
+		return edad;
+	}
+	public String getTelefono()
+	{
+		return telefono;
+	}
+	public String getNombre()
+	{
+		return nombre;
+	}
+}
+
+class Cliente extends Persona
+{
+	private double credito;
+	public void setCredito(double c)
+	{
+		this.credito = c;
+	}
+	public double getCredito()
+	{
+		return credito;
+	}
+}
+
+class Trabajador extends Persona
+{
+	private double salario;
+	public void setSalario(double s)
+	{
+		this.salario = s;
+	}
+	public double getSalario()
+	{
+		return salario;
+	}
+}
+
+Cliente c = new Cliente();
+c.setEdad(22);
+c.setNombre("Hector Lavoe");
+c.setEdad("5567891023");
+c.setCredito(3450.70);
+
+System.out.println(c.getNombre);
+System.out.println(c.getEdad);
+System.out.println(c.getTelefono);
+System.out.println(c.getCredito);
+
+Trabajador t = new Trabajador();
+t.setEdad(23);
+t.setNombre("Miguel Pozo");
+t.setEdad("5567891023");
+t.setSalario(200.45);
+
+System.out.println(t.getNombre);
+System.out.println(t.getEdad);
+System.out.println(t.getTelefono);
+System.out.println(t.getSalario);
